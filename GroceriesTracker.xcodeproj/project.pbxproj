@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E7535A4F2DE287B2007BE8B5 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7535A4E2DE287B2007BE8B5 /* RealmSwift */; };
+		E7535A502DE287B2007BE8B5 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E7535A4E2DE287B2007BE8B5 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E7535A242DD0271A007BE8B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +28,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E7535A512DE287B2007BE8B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7535A502DE287B2007BE8B5 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		E7535A162DD02719007BE8B5 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7535A232DD0271A007BE8B5 /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7535A2D2DD0271B007BE8B5 /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7535A162DD02719007BE8B5 /* GroceriesTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceriesTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7535A232DD0271A007BE8B5 /* GroceriesTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7535A2D2DD0271B007BE8B5 /* GroceriesTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7535A4F2DE287B2007BE8B5 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,7 @@
 				E7535A182DD02719007BE8B5 /* TodoList */,
 				E7535A262DD0271B007BE8B5 /* TodoListTests */,
 				E7535A302DD0271B007BE8B5 /* TodoListUITests */,
+				E7535A4D2DE287B2007BE8B5 /* Frameworks */,
 				E7535A172DD02719007BE8B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +106,31 @@
 		E7535A172DD02719007BE8B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7535A162DD02719007BE8B5 /* TodoList.app */,
-				E7535A232DD0271A007BE8B5 /* TodoListTests.xctest */,
-				E7535A2D2DD0271B007BE8B5 /* TodoListUITests.xctest */,
+				E7535A162DD02719007BE8B5 /* GroceriesTracker.app */,
+				E7535A232DD0271A007BE8B5 /* GroceriesTrackerTests.xctest */,
+				E7535A2D2DD0271B007BE8B5 /* GroceriesTrackerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E7535A4D2DE287B2007BE8B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7535A152DD02719007BE8B5 /* TodoList */ = {
+		E7535A152DD02719007BE8B5 /* GroceriesTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7535A372DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "TodoList" */;
+			buildConfigurationList = E7535A372DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "GroceriesTracker" */;
 			buildPhases = (
 				E7535A122DD02719007BE8B5 /* Sources */,
 				E7535A132DD02719007BE8B5 /* Frameworks */,
 				E7535A142DD02719007BE8B5 /* Resources */,
+				E7535A512DE287B2007BE8B5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,16 +139,17 @@
 			fileSystemSynchronizedGroups = (
 				E7535A182DD02719007BE8B5 /* TodoList */,
 			);
-			name = TodoList;
+			name = GroceriesTracker;
 			packageProductDependencies = (
+				E7535A4E2DE287B2007BE8B5 /* RealmSwift */,
 			);
 			productName = TodoList;
-			productReference = E7535A162DD02719007BE8B5 /* TodoList.app */;
+			productReference = E7535A162DD02719007BE8B5 /* GroceriesTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E7535A222DD0271A007BE8B5 /* TodoListTests */ = {
+		E7535A222DD0271A007BE8B5 /* GroceriesTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7535A3A2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "TodoListTests" */;
+			buildConfigurationList = E7535A3A2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "GroceriesTrackerTests" */;
 			buildPhases = (
 				E7535A1F2DD0271A007BE8B5 /* Sources */,
 				E7535A202DD0271A007BE8B5 /* Frameworks */,
@@ -133,16 +163,16 @@
 			fileSystemSynchronizedGroups = (
 				E7535A262DD0271B007BE8B5 /* TodoListTests */,
 			);
-			name = TodoListTests;
+			name = GroceriesTrackerTests;
 			packageProductDependencies = (
 			);
 			productName = TodoListTests;
-			productReference = E7535A232DD0271A007BE8B5 /* TodoListTests.xctest */;
+			productReference = E7535A232DD0271A007BE8B5 /* GroceriesTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E7535A2C2DD0271B007BE8B5 /* TodoListUITests */ = {
+		E7535A2C2DD0271B007BE8B5 /* GroceriesTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7535A3D2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "TodoListUITests" */;
+			buildConfigurationList = E7535A3D2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "GroceriesTrackerUITests" */;
 			buildPhases = (
 				E7535A292DD0271B007BE8B5 /* Sources */,
 				E7535A2A2DD0271B007BE8B5 /* Frameworks */,
@@ -156,11 +186,11 @@
 			fileSystemSynchronizedGroups = (
 				E7535A302DD0271B007BE8B5 /* TodoListUITests */,
 			);
-			name = TodoListUITests;
+			name = GroceriesTrackerUITests;
 			packageProductDependencies = (
 			);
 			productName = TodoListUITests;
-			productReference = E7535A2D2DD0271B007BE8B5 /* TodoListUITests.xctest */;
+			productReference = E7535A2D2DD0271B007BE8B5 /* GroceriesTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E7535A112DD02719007BE8B5 /* Build configuration list for PBXProject "TodoList" */;
+			buildConfigurationList = E7535A112DD02719007BE8B5 /* Build configuration list for PBXProject "GroceriesTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +225,17 @@
 			);
 			mainGroup = E7535A0D2DD02719007BE8B5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E7535A492DE28506007BE8B5 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E7535A172DD02719007BE8B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7535A152DD02719007BE8B5 /* TodoList */,
-				E7535A222DD0271A007BE8B5 /* TodoListTests */,
-				E7535A2C2DD0271B007BE8B5 /* TodoListUITests */,
+				E7535A152DD02719007BE8B5 /* GroceriesTracker */,
+				E7535A222DD0271A007BE8B5 /* GroceriesTrackerTests */,
+				E7535A2C2DD0271B007BE8B5 /* GroceriesTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +291,12 @@
 /* Begin PBXTargetDependency section */
 		E7535A252DD0271A007BE8B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7535A152DD02719007BE8B5 /* TodoList */;
+			target = E7535A152DD02719007BE8B5 /* GroceriesTracker */;
 			targetProxy = E7535A242DD0271A007BE8B5 /* PBXContainerItemProxy */;
 		};
 		E7535A2F2DD0271B007BE8B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7535A152DD02719007BE8B5 /* TodoList */;
+			target = E7535A152DD02719007BE8B5 /* GroceriesTracker */;
 			targetProxy = E7535A2E2DD0271B007BE8B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -329,6 +362,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -386,6 +420,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -461,7 +496,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceriesTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroceriesTracker";
 			};
 			name = Debug;
 		};
@@ -480,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceriesTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroceriesTracker";
 			};
 			name = Release;
 		};
@@ -521,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7535A112DD02719007BE8B5 /* Build configuration list for PBXProject "TodoList" */ = {
+		E7535A112DD02719007BE8B5 /* Build configuration list for PBXProject "GroceriesTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7535A352DD0271B007BE8B5 /* Debug */,
@@ -530,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7535A372DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "TodoList" */ = {
+		E7535A372DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "GroceriesTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7535A382DD0271B007BE8B5 /* Debug */,
@@ -539,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7535A3A2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "TodoListTests" */ = {
+		E7535A3A2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "GroceriesTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7535A3B2DD0271B007BE8B5 /* Debug */,
@@ -548,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7535A3D2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "TodoListUITests" */ = {
+		E7535A3D2DD0271B007BE8B5 /* Build configuration list for PBXNativeTarget "GroceriesTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7535A3E2DD0271B007BE8B5 /* Debug */,
@@ -558,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7535A492DE28506007BE8B5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7535A4E2DE287B2007BE8B5 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7535A492DE28506007BE8B5 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E7535A0E2DD02719007BE8B5 /* Project object */;
 }

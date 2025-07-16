@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct TodoListApp: App {
+struct GroceriesTrackerApp: App {
+    @StateObject private var router = Router()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }

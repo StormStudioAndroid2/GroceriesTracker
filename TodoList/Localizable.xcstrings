@@ -1,0 +1,154 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Closed" : {
+
+    },
+    "Date" : {
+
+    },
+    "groceries_add_new_item_button_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add new Item"
+          }
+        }
+      }
+    },
+    "groceries_list_closed_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Closed"
+          }
+        }
+      }
+    },
+    "groceries_list_created_date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created date"
+          }
+        }
+      }
+    },
+    "groceries_list_opened_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opened"
+          }
+        }
+      }
+    },
+    "groceries_list_sort_created_date" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created date"
+          }
+        }
+      }
+    },
+    "groceries_list_sort_expired_date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expired date"
+          }
+        }
+      }
+    },
+    "groceries_list_sort_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "groceries_list_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groceries List"
+          }
+        }
+      }
+    },
+    "groceries_sheet_create_new_item" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create Grocery"
+          }
+        }
+      }
+    },
+    "groceries_sheet_new_item_expired_date:" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date of expire:"
+          }
+        }
+      }
+    },
+    "groceries_sheet_new_item_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expired date"
+          }
+        }
+      }
+    },
+    "grocery_item_delete_action" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete "
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual"
+    },
+    "Opened" : {
+
+    },
+    "Status" : {
+
+    },
+    "Title" : {
+
+    }
+  },
+  "version" : "1.0"
+}
